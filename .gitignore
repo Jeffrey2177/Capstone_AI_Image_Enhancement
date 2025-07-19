@@ -1,0 +1,21 @@
+# Python things
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+.replit
+
+# lockfiles
+Pipfile.lock

@@ -72,7 +72,8 @@ if __name__ == "__main__":
     shutil.rmtree("data/HQ_T2", ignore_errors=True)
 
     total = len(t2_slices) * len(BVALS)
-    print("✅ Done!")
+    print("Done")
     print(f" Inpaints generated: {len(t2_slices)} → data/HQ_T2/")
     print(f" HQ DWI maps: {total} → data/HQ_DWI/")
     print(f" B-values: {BVALS}")
+

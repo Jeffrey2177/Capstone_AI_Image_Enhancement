@@ -64,4 +64,5 @@ def generate_lq_variants():
 if __name__ == "__main__":
     LQ_ROOT.mkdir(parents=True, exist_ok=True)
     generate_lq_variants()
-    print("✅ All done!")
+    print("Complete")
+

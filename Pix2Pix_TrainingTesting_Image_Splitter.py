@@ -68,7 +68,8 @@ for hq_path in HQ_DIR.glob("*.png"):
         cv2.imwrite(str(out_dir / lq_path.name), ab)
 
 # ─── SUMMARY ───────────────────────────────────────────────────────────
-print(f"✅ Built {count_train} train AB PNGs → {TRAIN_DIR}")
-print(f"✅ Built {count_test} test AB PNGs → {TEST_DIR}")
+print(f"Built {count_train} train AB PNGs → {TRAIN_DIR}")
+print(f"Built {count_test} test AB PNGs → {TEST_DIR}")
 if missing:
-    print(f"⚠️  {missing} HQs had no matching LQ folder")
+    print(f" {missing} HQs had no matching LQ folder")
+

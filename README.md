@@ -42,3 +42,10 @@ This project is designed to be open source and available under the MIT License
 
 ## Credits
 
+This project builds upon the foundational work of [junyanz/pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix), an open-source PyTorch implementation of CycleGAN and Pix2Pix by Jun-Yan Zhu and collaborators.  
+Their repository provided the base architecture and training framework for the GAN model used in this project.
+
+Additional contributions and customisations were made for:
+- Diffusion-Weighted MRI data handling
+- Synthetic degradation and enhancement workflows
+- Web-based visualization and evaluation

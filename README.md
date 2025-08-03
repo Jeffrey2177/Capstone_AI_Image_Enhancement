@@ -16,7 +16,7 @@ This project allows the enhancement of low-quality Diffusion-Weighted MRI brain 
 
 To run this project locally:
 
-1. *Open a terminal or command prompt* (e.g. Terminal on macOS/Linux, Command Prompt or PowerShell on Windows)
+1. Open a terminal or command prompt (e.g. Terminal on macOS/Linux, Command Prompt or PowerShell on Windows)
 2. Then run the following commands:
 
 ```bash
@@ -36,11 +36,22 @@ pip install -r requirements.txt
 
 ```
 3. Download the latest Pix2pix model (latest_net_G.pth) weight from [Google Drive](https://drive.google.com/drive/folders/1J7mjHB8N-ZNUiDiHw-8DUzIlxTjt-dff)
-4. Insert the downloaded weight from Goolge Drive into ```bash Capstone\pytorch-CycleGAN-and-pix2pix\checkpoints\pix2pix_main ```
-
-## Running the Files
+4. Insert the downloaded weight from Goolge Drive into ```Capstone\pytorch-CycleGAN-and-pix2pix\checkpoints\pix2pix_main ```
 
 ## How to use
+
+1. Open a new terminal or command prompt window
+2. Change directory to the project folder
+```cd Capstone_AI_Image_Enhancement```
+3.  Run the following python scripts:
+```python HQ_Image_Generation.py```
+```python LQ_Image_Generation.py```
+```python Pix2Pix_TrainingTesting_Image_Splitter.py```
+```CycleGAN_TrainingTesting_Image_Splitter.py```
+
+
+5.  
+
 
 
 ## License 

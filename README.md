@@ -14,22 +14,29 @@ This project allows the enhancement of low-quality Diffusion-Weighted MRI brain 
 
 ## Setup
 
+To run this project locally:
+
+1. *Open a terminal or command prompt* (e.g. Terminal on macOS/Linux, Command Prompt or PowerShell on Windows)
+2. Then run the following commands:
+
 ```bash
+
 # 1. Clone the repository
 git clone https://github.com/Jeffrey2177/Capstone_AI_Image_Enhancement.git
+
+# 2. Change directory to the project folder
 cd Capstone_AI_Image_Enhancement
 
-# 2. (Optional) Create a virtual environment
+# 3. (Optional) Create a virtual environment
 python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+source venv\Scripts\activate 
 
 # 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Run the Streamlit web app
-streamlit run app.py
-
 ```
+3. Download the latest Pix2pix model (latest_net_G.pth) weight from [Google Drive](https://drive.google.com/drive/folders/1J7mjHB8N-ZNUiDiHw-8DUzIlxTjt-dff)
+4. Insert the downloaded weight from Goolge Drive into '''bash Capstone\pytorch-CycleGAN-and-pix2pix\checkpoints\pix2pix_main '''
 
 ## Running the Files
 

@@ -43,12 +43,15 @@ pip install -r requirements.txt
 1. Open a new terminal or command prompt window
 2. Change directory to the project folder
 ```cd Capstone_AI_Image_Enhancement```
-3.  Run the following python scripts:
-```python HQ_Image_Generation.py```
-```python LQ_Image_Generation.py```
-```python Pix2Pix_TrainingTesting_Image_Splitter.py```
-```CycleGAN_TrainingTesting_Image_Splitter.py```
 
+```markdown
+3. Run the following Python scripts:
+```bash
+python HQ_Image_Generation.py
+python LQ_Image_Generation.py
+python Pix2Pix_TrainingTesting_Image_Splitter.py
+python CycleGAN_TrainingTesting_Image_Splitter.py
+```
 
 5.  
 

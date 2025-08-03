@@ -8,9 +8,11 @@
 - [License](#license)
 - [Credits](#credits)
 
+
 ## Description
 
 This project allows the enhancement of low-quality Diffusion-Weighted MRI brain scans using a Pix2Pix GAN model. It includes a Streamlit-based web app for image comparison and metric evaluation. 
+
 
 ## Setup
 
@@ -38,6 +40,7 @@ pip install -r requirements.txt
 3. Download the latest Pix2pix model (latest_net_G.pth) weight from [Google Drive](https://drive.google.com/drive/folders/1J7mjHB8N-ZNUiDiHw-8DUzIlxTjt-dff)
 4. Insert the downloaded weight from Goolge Drive into ```Capstone\pytorch-CycleGAN-and-pix2pix\checkpoints\pix2pix_main ```
 
+
 ## How To Use
 
 ### Setting The Prerequisites
@@ -63,9 +66,11 @@ python CycleGAN_TrainingTesting_Image_Splitter.py
 
 In either methods of opening the application, drag and drop (or click to upload) low-quality and high-quality Diffusion-MRI brain images on the left toolbar. The application will process and display the predicted high-quality version(s) with the option to download. Metric results will also be shown for comparison purposes.
 
+
 ## License 
 
 This project is designed to be open source and available under the MIT License
+
 
 ## Credits
 

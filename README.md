@@ -29,6 +29,8 @@ pip install -r requirements.txt
 # 4. Run the Streamlit web app
 streamlit run app.py
 
+```
+
 ## Running the Files
 
 ## How to use

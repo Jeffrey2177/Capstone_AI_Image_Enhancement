@@ -59,9 +59,9 @@ python CycleGAN_TrainingTesting_Image_Splitter.py
 ``` streamlit run app.py ```
 2. Alternatively visit this link [Medical Image Enhancer App](https://Jeffrey2177-Capstone.hf.space) which hosts the web application online 
  
+### App Usage
 
-
-
+In either methods of opening the application, drag and drop (or click to upload) low-quality and high-quality Diffusion-MRI brain images on the left toolbar. The application will process and display the predicted high-quality version(s) with the option to download. Metric results will also be shown for comparison purposes.
 
 ## License 
 

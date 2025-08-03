@@ -1,6 +1,6 @@
 # Medical Image Enhancement with GAN
 
-## Table of contents
+## Table Of Contents
 
 - [Description](#description)
 - [Setup](#setup)
@@ -31,7 +31,7 @@ cd Capstone_AI_Image_Enhancement
 python -m venv venv
 source venv\Scripts\activate 
 
-# 3. Install dependencies
+# 4. Install dependencies
 pip install -r requirements.txt
 
 ```

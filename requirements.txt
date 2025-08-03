@@ -8,3 +8,6 @@ dominate>=2.0.0
 visdom>=0.1.8
 medigan>=0.1.0
 pathlib>=1.0.1
+Pillow>=9.5.0
+streamlit>=1.25.0
+lpips>=0.1.4

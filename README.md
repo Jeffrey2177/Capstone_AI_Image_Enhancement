@@ -40,6 +40,7 @@ pip install -r requirements.txt
 
 ## How to use
 
+### Setting Prerequisites
 1. Open a new terminal or command prompt window
 2. Change directory to the project folder
 ```cd Capstone_AI_Image_Enhancement```
@@ -52,9 +53,12 @@ python LQ_Image_Generation.py
 python Pix2Pix_TrainingTesting_Image_Splitter.py
 python CycleGAN_TrainingTesting_Image_Splitter.py
 ```
+### Running The app
 
-4. 
-5. 
+1. In the same project directory, start the application with the following command:
+``` streamlit run app.py ```
+2. Alternatively visit this link [Medical Image Enhancer App](https://Jeffrey2177-Capstone.hf.space) which hosts the web application online 
+ 
 
 
 

@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ```
 3. Download the latest Pix2pix model (latest_net_G.pth) weight from [Google Drive](https://drive.google.com/drive/folders/1J7mjHB8N-ZNUiDiHw-8DUzIlxTjt-dff)
-4. Insert the downloaded weight from Goolge Drive into '''bash Capstone\pytorch-CycleGAN-and-pix2pix\checkpoints\pix2pix_main '''
+4. Insert the downloaded weight from Goolge Drive into ```bash Capstone\pytorch-CycleGAN-and-pix2pix\checkpoints\pix2pix_main ```
 
 ## Running the Files
 
